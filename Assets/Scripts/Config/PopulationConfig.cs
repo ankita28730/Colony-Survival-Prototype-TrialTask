@@ -3,7 +3,7 @@ using System;
 [Serializable]
 public class PopulationConfig
 {
-    public int villagerCount;
-    public float startingFood;
-    public float startingWater;
+    public int villagers;
+    public float StartingFoodReserves;
+    public float StartingWaterReserves;
 }

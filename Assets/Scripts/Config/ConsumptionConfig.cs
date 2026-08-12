@@ -1,6 +1,8 @@
-using UnityEngine;
+using System;
 
-public class consumptionconfig
+[Serializable]
+public class ConsumptionConfig
 {
-    
+    public float foodPerVillagerPerDay;
+    public float waterPerVillagerPerDay;
 }
