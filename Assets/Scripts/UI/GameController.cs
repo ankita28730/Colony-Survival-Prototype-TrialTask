@@ -51,19 +51,19 @@ public class GameController : MonoBehaviour
     private void UpdateUI()
     {
         foodText.text =
-            $"Food: {simulation.FoodStored:0}";
+            $"Current Food Reserves: {simulation.FoodStored:0}";
 
         waterText.text =
-            $"Water: {simulation.WaterStored:0}";
+            $"Current Water Reserves: {simulation.WaterStored:0}";
 
         foodDaysText.text =
-            $"Food Days: {simulation.FoodDaysRemaining:0.0}";
+            $"Food Days Remaining: {simulation.FoodDaysRemaining:0.0}";
 
         waterDaysText.text =
-            $"Water Days: {simulation.WaterDaysRemaining:0.0}";
+            $"Water Days Remaining: {simulation.WaterDaysRemaining:0.0}";
 
         dayText.text =
-            $"Day: {simulation.GameDay}";
+            $"Current Game Day: {simulation.GameDay}";
     }
 
     private PopulationConfig LoadPopulation()

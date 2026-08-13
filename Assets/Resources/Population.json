@@ -1,5 +1,5 @@
 {
     "villagers": 10,
-    "StartingFoodReserves": 100,
-    "StartingWaterReserves": 100
+    "StartingFoodReserves": 500,
+    "StartingWaterReserves": 500
 }
